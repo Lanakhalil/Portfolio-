@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .intro {
+    background-image: url("images/images.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .intro-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(160, 8, 84);
+  }
+
+  
+  a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+  }
+  
+  #motive {
+    background-color: rgb(160, 8, 84);
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  footer{
+    background-color: #cccccc;
+    margin:0px;
+    padding: 1px;
+  }
+  
+  .footerS {
+    padding-left: 15px;
+  }
+
+  .btn {
+    background-color: #cccccc;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+  }
+
+  .linkedinpic {
+    width: 60px;
+    height: 30px;
+  }
+
+section {
+   
+    text-align: center;
+}
+
+.sections1 {
+    margin-bottom: 4em;
+}
+
+.section1 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .sections1 {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .section1 + .sections1 {
+        margin-left: 2em;
+    }
+}
